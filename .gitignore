@@ -1,0 +1,11 @@
+.DS_Store
+.project
+.settings/*
+*.pyc
+*.log
+*.swp
+*~
+local_settings.py
+/data
+.~*
+common/CACHE
