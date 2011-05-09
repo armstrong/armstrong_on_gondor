@@ -315,8 +315,7 @@
             "object_id": "1", 
             "content_type": 9, 
             "serialized_data": "[{\"pk\": 1, \"model\": \"arm_wells.welltype\", \"fields\": {\"slug\": \"generic\", \"title\": \"Generic\"}}]", 
-            "revision": 1,
-            "type":1
+            "revision": 1
         }
     }, 
     {
@@ -328,8 +327,7 @@
             "object_id": "1", 
             "content_type": 10, 
             "serialized_data": "[{\"pk\": 1, \"model\": \"arm_wells.well\", \"fields\": {\"active\": true, \"pub_date\": \"2011-04-25 14:56:27\", \"expires\": null, \"type\": 1}}]", 
-            "revision": 2,
-            "type":1
+            "revision": 2
         }
     }, 
     {
@@ -341,8 +339,7 @@
             "object_id": "1", 
             "content_type": 11, 
             "serialized_data": "[{\"pk\": 1, \"model\": \"arm_wells.node\", \"fields\": {\"well\": 1, \"order\": 0, \"content_type\": 14, \"object_id\": 1}}]", 
-            "revision": 3,
-            "type":1
+            "revision": 3
         }
     }, 
     {
@@ -354,8 +351,7 @@
             "object_id": "2", 
             "content_type": 11, 
             "serialized_data": "[{\"pk\": 2, \"model\": \"arm_wells.node\", \"fields\": {\"well\": 1, \"order\": 0, \"content_type\": 14, \"object_id\": 2}}]", 
-            "revision": 4,
-            "type":1
+            "revision": 4
         }
     }, 
     {
