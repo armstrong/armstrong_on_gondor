@@ -1,1 +1,10 @@
-{{ event.start_day }}
+
+title: {{ event.title }}<br/>
+sites:{{ event.sites.all }}<br>
+location:{{ event.location }}<br/>
+description:{{ event.description|safe }}<br/>
+start_date:{{ event.start_date }}<br/>
+end_date:{{ event.end_date }}<br/>
+all_day:{{ event.all_day }}<br/>
+website:<a href='{{ event.website|safe }}'>{{ event.website }}</a><br/>
+    <a href="{%url rsvp_create event.slug %}"> Send a invatation</a>
