@@ -7,6 +7,6 @@ django-chunks
 django-reversion==1.3.3
 -e git://github.com/armstrongcms/armstrong.core.arm_wells.git#egg=armstrong.core.arm_wells
 -e git://github.com/armstrongcms/armstrong.core.arm_content.git#egg=armstrong.core.arm_content
--e git://github.com/petergitz/armstrong.core.arm_profiles.git#egg=armstrong.core.arm_profiles
--e git://github.com/armstrongcms/armstrong.apps.arm_events.git#egg=armstrong.apps.arm_events
+#-e git://github.com/armstrongcms/armstrong.core.arm_profiles.git#egg=armstrong.core.arm_profiles
+-e git://github.com/armstrongcms/armstrong.apps.events.git#egg=armstrong.apps.events
 

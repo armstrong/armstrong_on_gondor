@@ -8,3 +8,4 @@ end_date:{{ event.end_date }}<br/>
 all_day:{{ event.all_day }}<br/>
 website:<a href='{{ event.website|safe }}'>{{ event.website }}</a><br/>
     <a href="{%url rsvp_create event.slug %}"> Send a invatation</a>
+{% include "comments/comments.html"  with publication=event %}
