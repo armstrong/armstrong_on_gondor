@@ -6,7 +6,7 @@ admin.autodiscover()
 
 from armstrong.core.arm_wells.views import SimpleWellView
 
-import armstrong.apps.arm_events.urls as event_urls
+import armstrong.apps.events.urls as event_urls
 
 urlpatterns = patterns('',
     url(r'^contact/', include('contact_form.urls')),
