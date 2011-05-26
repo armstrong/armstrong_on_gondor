@@ -9,5 +9,6 @@ django-reversion==1.3.3
 armstrong.core.arm_sections
 armstrong.core.arm_wells
 armstrong.core.arm_content
+armstrong.apps.articles
 #-e git://github.com/armstrongcms/armstrong.core.arm_profiles.git#egg=armstrong.core.arm_profiles
 #-e git://github.com/armstrongcms/armstrong.apps.events.git#egg=armstrong.apps.events
