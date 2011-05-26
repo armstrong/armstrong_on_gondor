@@ -1,11 +1,13 @@
 .DS_Store
 .project
+.gondor/*
 .settings/*
+.~*
 *.pyc
 *.log
 *.swp
 *~
-local_settings.py
 /data
-.~*
+armstrong_on_gondor/.gondor/*
 common/CACHE
+local_settings.py
