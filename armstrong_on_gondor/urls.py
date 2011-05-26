@@ -6,7 +6,7 @@ admin.autodiscover()
 
 from armstrong.core.arm_wells.views import SimpleWellView
 
-import armstrong.apps.events.urls as event_urls
+#from armstrong.apps import events
 
 urlpatterns = patterns('',
     url(r'^contact/', include('contact_form.urls')),
@@ -19,6 +19,6 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^events/', include(event_urls)),
+    #url(r'^events/', include(events.urls)),
     url(r'^comments/', include('django.contrib.comments.urls')),
 )
