@@ -135,7 +135,6 @@ INSTALLED_APPS = (
     #'armstrong.apps.events',
     'reversion',
     'chunks',
-    'contact_form',
     
     'home',
 )
