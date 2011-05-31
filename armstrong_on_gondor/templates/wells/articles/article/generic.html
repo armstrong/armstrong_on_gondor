@@ -1,3 +1,9 @@
-{{object.title|safe}}<br/>
-{{object.body|safe}}<br/>
-<br/>
+{% comment %}
+  The following template is not final.
+  It is currently included for testing purposes.
+{% endcomment %}
+
+<h3>{{object.title|safe}}</h3>
+<article>
+{{object.body|safe}}
+</article>
